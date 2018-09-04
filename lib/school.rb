@@ -30,11 +30,14 @@ end
 
 def sort
   roster.each do |grades, students|
-  roster.sort_by[key, key_value]
-   roster
+  sorted_roster = {}
+  roster[grades].sort
   end
 end
+*let's make an empty hash, to put our sorted values into
 
+Nicole Eidi A FEW SECONDS AGO
+and sort the students under each roster[grades]
 
 
 end
