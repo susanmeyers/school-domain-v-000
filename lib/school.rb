@@ -25,7 +25,7 @@ def add_student(name, grade)
 
 def grade(grade)
   roster(grade).each do |student, grades|
-    if roster.include? {grades}
+    if roster(grade).include? {grades}
       return student
     end
 
