@@ -24,8 +24,8 @@ def add_student(name, grade)
  # end
 
 def grade(grade)
-  roster.collect do |grades, students|
-       students[3]
+  roster[2].collect do |grades, students|
+       students
   end
 
 end
