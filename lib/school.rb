@@ -29,7 +29,7 @@ end
 
 
 def sort
-  roster[grade].each.sort do |grades, students|
+  roster.each.sort do |grades, students|
   #roster[grade].sort_by |key, key_value
   roster
   end
