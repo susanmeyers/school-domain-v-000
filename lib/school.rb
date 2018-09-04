@@ -27,6 +27,9 @@ def grade(grade)
   roster[grade]
 end
 
+def sort(grade, student)
+end
+
 
 
 
