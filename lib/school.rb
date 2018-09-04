@@ -30,9 +30,9 @@ end
 
 def sort
   sorted_roster = {}
-  roster.each do |grades, students|
-  roster[grade].sort {grades, students}
-  sorted_roster
+    roster.each do |grades, students|
+    roster[grade].sort {|key, key_value|}
+     sorted_roster
   end
 end
 
