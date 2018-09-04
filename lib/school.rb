@@ -24,11 +24,10 @@ def add_student(name, grade)
  # end
 
 def grade(grade)
-  roster[2].collect do |grades, students|
-       students
+  roster[grade]
+  
   end
 
-end
 
 
 
