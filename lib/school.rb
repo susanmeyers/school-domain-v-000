@@ -30,7 +30,7 @@ end
 
 def sort
   roster.each do |grades, students|
-  roster.sort_by [key, key_value]
+  roster.sort_by[key, key_value]
    roster
   end
 end
