@@ -30,6 +30,7 @@ end
 
 def sort
   roster[grade].sort_by |key, "key_value"|
+  roster
 end
 
 
