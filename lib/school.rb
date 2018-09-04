@@ -32,7 +32,7 @@ def sort
   roster.each do |grades, students|
   sorted_roster = {}
   roster[grades].sort
-  sorted_roster << roster[grades]
+  sorted_roster 
   end
 end
 
