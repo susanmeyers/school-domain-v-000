@@ -29,8 +29,9 @@ end
 
 
 def sort
-  roster.map do |grades, students|
-   roster.sort_by[key_value, key] 
+  roster.each do |grades, students|
+  roster.sort_by {|key_value, key|}
+   roster
   end
 end
 
