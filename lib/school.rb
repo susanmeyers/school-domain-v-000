@@ -27,6 +27,7 @@ def grade(grade)
   roster(grade).each do |student, grades|
     if roster.include? {grades}
       return student
+    end
 
   end
 end
