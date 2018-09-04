@@ -30,7 +30,7 @@ end
 
 def sort
   roster.map do |grades, students|
-   roster.sort_by[key_value] => key
+   roster.sort_by[key_value, key] 
   end
 end
 
